@@ -1,0 +1,1104 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Kush Portfolio</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="bootstrap.css" rel="stylesheet">
+	
+	<link href="ionicons.css" rel="stylesheet">
+	
+	<link href="fluidbox.min.css" rel="stylesheet">
+	
+	<link href="styles.css" rel="stylesheet">
+	
+	<link href="responsive.css" rel="stylesheet">
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+	
+    <!--Below is a testing code snippet-->
+    
+   
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*Css property for side nav bar starts*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    width: 100%;
+}
+
+/*Css property for side nav bar end*/
+
+
+
+
+/*Below code for image gallery*/
+
+
+.shadoweffect {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.shadoweffect:hover {
+    box-shadow: 8px 16px 32px 8px rgba(0,0,0,0.2);
+}
+
+/*Above code for image gallery*/
+
+
+
+
+.shadoweffect2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+}
+
+.shadoweffect2:hover {
+    box-shadow: 8px 16px 32px 8px rgba(0,0,0,0.2);
+}
+
+
+
+
+.showshadow {
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+
+.showshadow:hover {
+    box-shadow: 8px 16px 32px 8px rgba(0,0,0,0.2);
+}
+
+
+
+
+/*Below code is for new photo gallery*/
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #787878;
+  color:white;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+/*Above code is for new photo gallery*/
+
+
+
+
+/*Below code is for top link button*/
+
+
+#myBtn1 {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn1:hover {
+  background-color: #555;
+}
+
+
+/*Above code is for top link button*/
+
+
+</style>
+   
+    
+      <!--Above is a testing code snippet-->
+
+    
+</head>
+<body>
+  
+    
+    <button onclick="topFunction()" id="myBtn1" title="Go to top">Top</button>
+           
+            <header> 
+            
+            
+            
+              <!--Side nav bar code-->
+    
+    
+  	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#main"> Home</a>
+	  <a href="#aboutme">About Me</a>
+	  <a href="#education">Education</a>
+	  <a href="#experience12">Professional Experience</a>
+	  <a href="#experience12">Extra Curricular Activities</a>
+	  <a href="#experience12">Leadership skills</a>
+	  <a href="#designsample">Design Samples</a>
+	</div>
+
+<div id="main" class="btn btn-outline-success">
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+    
+    
+    
+    <!--Side nav bar code ends-->
+
+            
+            <br/>
+             
+            <strong>
+            
+            
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div>
+							
+							<div class="right-area">
+								<span class="glyphicon glyphicon-map-marker"><h6>Based in</h6> </span>
+								
+								<h5>SRM IST, KTR Chennai</h5>
+                                                                <h5>603203</h5>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							
+							<div class="right-area">
+								<span class="glyphicon glyphicon-earphone"><h4>1234567890</h4></span>
+								
+								<h6>MON - FRI</h6>
+                                                                <h6>10AM - 6PM</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+					
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							
+							<div class="right-area">
+								<i class="fa fa-envelope"><h4><a href="mailto:kushlinkedin@gmail.com">kushlinkedin@gmail.com</a></h4></i>
+                                                            
+								<h6>REPLY within 48 HOURS</h6>
+                                                                
+                                                                                                                 
+                                                                
+                                                                
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+				</div><!-- row -->
+			</div><!-- heading-wrapper -->
+			</strong>
+			<a class="downlad-btn" href="errorimg.html">Download CV</a>
+                         <br/><br/> <br/><br/> <br/><br/> <br/><br/><br/><br/> <br/><br/><br/><br/>
+                                                                <br/><br/><br/><br/><br/>
+                                                                
+        
+
+	</header>
+	
+    <!-- Use a button to open the snackbar -->
+
+
+    
+   <br/>     
+    
+  <br/>  
+    
+ <br/>
+
+    
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img showshadow"><img src="IMG_20180824_085859.jpg" alt="Profile Pic"></div>
+						<h2><b>Kush Shah</b></h2>
+						<h4 class="font-yellow">UI/UX DESIGNER</h4>
+						<h4 class="font-yellow">DATA ANALYST</h4>
+                                                
+						<ul class="information margin-tb-30">
+							<li><b>BORN : </b>March 25, 1999</li>
+							<li><b>EMAIL : </b><a href="mailto:kushlinkedin@gmail.com">kushlinkedin@gmail.com</a></li>
+							<li><b>PROFESSION : </b>Undergraduate in CSE(BTech)</li>
+						</ul>
+						<ul class="social-icons">
+                                                        <li><a href="https://www.facebook.com/kushKV95"><span class="fa fa-facebook-official"></span></a></li>
+                                                        <li><a href="https://www.linkedin.com/in/kush-shah-5a771b169/"><span class="fa fa-linkedin"></span></a></li>
+                                                        <li><a href="https://www.instagram.com/know_me_gfx/"><span class="fa fa-instagram"></span></a></li>
+                                                        <li><a href="https://twitter.com/kushshah253"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://in.pinterest.com/kushshah253/"><i class="	fa fa-pinterest"></i></a></li>
+							
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+   
+              
+        <hr/>
+   
+        
+        <section id="aboutme" class="about-section section" style="background-color: rgba(225,225,225,0.4)">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">Hey I am Kush Shah and I help people improve their solutions.
+The journey from a person who was extremely interested in astronomy and mathematics to a cold-blooded coder has been absolutely exciting. Leadership and self-confidence are couple of qualities among those that were instilled in me during my schooling days. Graphic Designing was the first most thing I planned to explore as soon as I join my Undergraduate Program, and I did it. I extended those skills to UI/UX designing. One of the best part I admire about Computer Science is that it is highly competitive and updated field. So next thing in my dish were Machine Learning and Deep Learning. Wait...! Did I forget to mention about the Digital marketing? Yes, maybe. By the way I did try out that as well. I will keep on exploring various fields with time.
+
+But what have I learned the most is never hesitate to try anything new.</p>
+					
+					<div class="row">
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".90">
+									<div></div>
+									<h6 class="progress-title">UX DESIGNING</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".80">
+									<div></div>
+									<h6 class="progress-title">Graphic Designing</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+						
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".85">
+									<div></div>
+									<h6 class="progress-title">DATA ANALYTICS</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".80">
+									<div></div>
+									<h6 class="progress-title">DATA SCIENCE</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+	 
+        
+        <br/>
+
+        <hr/>
+        
+
+
+        <section class="education-section section" id="education">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>BTECH IN COMPUTER SCIENCE AND ENGINEERING</b></h4>
+							<h5 class="font-yellow"><b>SRM Institute of Science and Technology</b></h5>
+							<h6 class="font-lite-black margin-t-10">Expected to Graduate in 2021</h6>
+							<p class="margin-tb-30">
+								<ul>
+									<li>Secured 9.48 CGPA (upto 6th semester)</li>
+									<li>Received 3 Merit based scholarship - Tuition fees waiver - Rs. 3,75,000 only</li>
+									<li>Presented 2 research papers - Mathematics and Machine Learning</li>
+								</ul>
+							</p>
+						</div><!-- education -->
+						</div>
+                        <div class="education-wrapper">
+                        
+						<div class="education margin-b-50">
+							<h4><b>SENIOR SECONDARY EDUCATION</b></h4>
+							<h5 class="font-yellow"><b>BVB's GIPCL ACADEMY</b></h5>
+							<h6 class="font-lite-black margin-t-10">Cleared in April 2017</h6>
+							<p class="margin-tb-30">
+								<ul>
+									<li>Ranked no 1 in School under the Science stream with Mathematics major(PCM)</li><br/>
+									<li>Secured 95% in PCM category</li>
+								</ul>
+							</p>
+						</div><!-- education -->
+                            </div>
+						<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>SECONDARY EDUCATION</b></h4>
+							<h5 class="font-yellow"><b>BVB's GIPCL ACADEMY</b></h5>
+							<h6 class="font-lite-black margin-t-10">Cleared in APRIL 2015</h6>
+							<p class="margin-tb-30">
+								<ul>
+									<li>Secured 10 CGPA - School Topper</li><br/>
+									<li>Awarded Kulpati KM Munshi Award for excellance performance</li>
+								</ul>
+							</p>
+						</div><!-- education -->
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- about-section -->
+
+   
+        
+	<br/>
+	<hr style='width:80% ; color:#000 ; align: center ; color: blue ; size: 100px ; height:50px'>
+	
+        
+        
+	<section class="experience-section section" id="experience12">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Professional Experience</b></h3>
+						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+				
+					<div class="experience margin-b-50">
+						<h4><b>BARCLAYS (Financial Services)</b></h4>
+						<h5 class="font-yellow"><b>Risk Finance Treasury Technology Intern</b></h5>
+						<h6 class="margin-t-10">JUNE 2020 - JULY 2020</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Redesigned 2 UI/UX product templates & tested in-house product, used by 10,000+ users</li>
+							<li>Delivered 30+ bugs and enhancements to the Business Intelligence team along with Animated ppt</li>
+							<li>Optimized 1 Task Allocation Progress handler</li>
+							<li>Innovated 2 alternate solutions for an internal problem</li>
+							<li>Presented the recommendations to the AVPs, VPs, CDO and MD</li>
+							<li>Interacted with 8 Managing Directors and Startup Founders</li>
+						</ul>
+					</div><!-- experience -->
+					
+
+					<div class="experience margin-b-50">
+						<h4><b>JP MORGAN CHASE & CO. (Financial Services)</b></h4>
+						<h5 class="font-yellow"><b>Software Engineering Virtual Experience</b></h5>
+						<h6 class="margin-t-10">MAY 2020 - JUNE 2020</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Interfaced data feeds of 2 stock prices to enable the team to analyze stock trading calls</li>
+							<li>Debugged & compiled 20+ bugs in broken typescript files to ensure web application runs correctly</li>
+							<li>Participated in this experience provided by InsideSherpa in collaboration with the company</li>
+							<li>Rendered python script in live Perspectice graph with alerts</li>
+						</ul>
+					</div><!-- experience -->
+
+					<div class="experience margin-b-50">
+						<h4><b>KPMG (Advisory Services)</b></h4>
+						<h5 class="font-yellow"><b>Data Analytics Consulting Intern</b></h5>
+						<h6 class="margin-t-10">APRIL 2020 - MAY 2020</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Carried out detailed data processing for 3 main datasets</li>
+							<li>Recommended 20+ suggestions to mitigate issues</li>
+							<li>Participated in this experience provided by InsideSherpa in collaboration with the company</li>
+							<li>Modelled 15+ reports and 3 dashboards for data insights</li>
+						</ul>
+					</div><!-- experience -->
+
+
+					<div class="experience margin-b-50">
+						<h4><b>SPIHER (Educational Services)</b></h4>
+						<h5 class="font-yellow"><b>NCCSGD Trainee cum Intern</b></h5>
+						<h6 class="margin-t-10">APRIL 2020 - APRIL 2020</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Modelled various network configuration using CISCO Packet Tracer</li>
+							<li>Explored tasks related to IBM Cloud storage</li>
+							<li>Developed a mini game using python</li>
+						</ul>
+					</div><!-- experience -->
+					
+
+					<div class="experience margin-b-50">
+						<h4><b>LEAF DRIVE (IT/ACADEMIC Services)</b></h4>
+						<h5 class="font-yellow"><b>Web Developer Summer Intern</b></h5>
+						<h6 class="margin-t-10">MAY 2019 - JUNE 2019</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Developed a front end web application for a student academy</li>
+							<li>Created 33% if the backend part of a website project</li>
+							<li>Altered color variants for 2 different website projects</li>
+						</ul>
+					</div><!-- experience -->
+					
+
+					<div class="experience margin-b-50">
+						<h4><b>TRYST'19, IIT DELHI (Educational Services)</b></h4>
+						<h5 class="font-yellow"><b>Campus Ambassador Marketing Intern</b></h5>
+						<h6 class="margin-t-10">JAN 2019 - FEB 2019</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Strategized 5 valued marketing approaoches</li>
+							<li>Received the certificate of Merit for exceptional performance</li>
+							<li>Improved public speaking and convincing skills</li>
+							<li>Networked with more than 2000 students in & around the campus</li>							
+						</ul>
+					</div><!-- experience -->	
+
+					
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+	
+
+	<br/>
+        
+        <hr/>
+        
+
+        <section class="education-section section" id="education">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Extra Curricular Activites</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>CONSULTING AND ANALYTICS, IIT GUWAHATI</b></h4>
+							<h5 class="font-yellow"><b>Summer Analytics Training cum Competition</b></h5>
+							<h6 class="font-lite-black margin-t-10">APRIL 2020 - JUNE 2020</h6>
+							<br/>
+
+							<ul class="list margin-b-30">
+								<li>Ranked in Top 400 among 4500+ initial participants</li>
+								<li>Received the certificate of Merit for exceptional performance</li>
+								<li>Leveraged 250+ hrs of curated program in Analytics,Machine Learning and Deep Learning</li>
+							</ul>
+						</div><!-- education -->
+					</div>
+
+
+                     <div class="education-wrapper">
+                        
+						<div class="education margin-b-50">
+							<h4><b>HACKTOBERFEST 2019</b></h4>
+							<h5 class="font-yellow"><b>Open Source Contributor</b></h5>
+							<h6 class="font-lite-black margin-t-10">OCTOBER 2020</h6>
+							<br/>
+
+							<ul class="list margin-b-30">
+								<li>Achieved event incentives foro completing 4+ pull requests</li>
+								<li>Contributed majorly to an open source organization - Legesher.io</li>
+							</ul>
+
+						</div><!-- education -->
+                     </div>
+
+
+                    <div class="education-wrapper">
+                        
+						<div class="education margin-b-50">
+							<h4><b>GIRLSCRIPT FOUNDATIONS</b></h4>
+							<h5 class="font-yellow"><b>GirlScript Summer of Code Open Source Contributor</b></h5>
+							<h6 class="font-lite-black margin-t-10">MARCH 2019 - MAY 2019</h6>
+							<br/>
+
+							<ul class="list margin-b-30">
+								<li>Awarded for being Top Contributor for the 3 month long event</li>
+								<li>Delivered 8+ contributions to various open source projects</li>
+							</ul>
+
+						</div><!-- education -->
+                     </div> 
+
+
+                     <div class="education-wrapper">
+                        
+						<div class="education margin-b-50">
+							<h4><b>SRM AUV(Funded Tech Team)</b></h4>
+							<h5 class="font-yellow"><b>Designer/Corporate Member</b></h5>
+							<h6 class="font-lite-black margin-t-10">MARCH 2018 - AUGUST 2018</h6>
+							<br/>
+
+							<ul class="list margin-b-30">
+								<li>Designed 4 posters for ACMEE International Event</li>
+								<li>Designed posters/tshirt, helped in activities relting to fundraising 150000+ INR</li>
+							</ul>
+
+						</div><!-- education -->
+                     </div> 
+
+
+                     <div class="education-wrapper">
+                        
+						<div class="education margin-b-50">
+							<h4><b>SRM MILAN(National Level Cultural Fest)</b></h4>
+							<h5 class="font-yellow"><b>Graphic Designer</b></h5>
+							<h6 class="font-lite-black margin-t-10">FEB 2018 - MARCH 2018</h6>
+							<br/>
+
+							<ul class="list margin-b-30">
+								<li>Designed badges for the Leads of SRM Milan</li>
+								<br/>
+								<li>Designed Invitation templates for the Guests/Alumni</li>
+							</ul>
+
+						</div><!-- education -->
+                     </div> 
+
+
+                     <div class="education-wrapper">
+                        
+						<div class="education margin-b-50">
+							<h4><b>SRM AARUUSH(National Level Techno Management Fest)</b></h4>
+							<h5 class="font-yellow"><b>Graphic Designer</b></h5>
+							<h6 class="font-lite-black margin-t-10">JULY 2017 - AUGUST 2018</h6>
+							<br/>
+
+							<ul class="list margin-b-30">
+								<li>Ideated and designed 10+ posters for various events</li>
+								<li>Volunteered for Aaruush Educates - enlighting 50+ elderly people</li>
+							</ul>
+
+						</div><!-- education -->
+                     </div> 
+
+
+
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- about-section -->
+
+
+	<br/>
+	<hr/>
+
+	<section class="experience-section section" id="experience12">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>LEADERSHIP SKILLS</b></h3>
+						<h6 class="font-lite-black"><b>OPPORTUNITIES</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+				
+					<div class="experience margin-b-50">
+						<h4><b>HOUR OF CODE TECHNICAL MENTOR</b></h4>
+						<h5 class="font-yellow"><b>PROGRATE</b></h5>
+						<h6 class="margin-t-10">DECEMBER 2018</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							<li>Mentored 60+ students to encourage them to code</li>
+							<li>Taught programming basiics to students of a rural school</li>
+						</ul>
+					</div><!-- experience -->
+					
+					<div class="experience margin-b-50">
+						<h4><b>HEAD BOY</b></h4>
+						<h5 class="font-yellow"><b>BVB'S GIPCL ACADEMY</b></h5>
+						<h6 class="margin-t-10">MAY 2015 - APRIL 2016</h6>
+						<br/>
+						<ul class="list margin-b-30">
+							
+							<li>Represented over 300 students for better initiatives and resolving various issues</li>
+							<li>Founded Green Fingers initiative - keeping society cleaner</li>
+                            <li>Fundraised 1,20,00+ INR from students and other staff members everyday by volunteer contribution of 1INR from students everday benefiting 100+ rural school students for their welfare</li>
+					</div><!-- experience -->
+					
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+
+
+<br/>
+<hr/>
+
+
+
+		        <!-- MAIN (Center website) -->
+<div id="designsample" class="main" style="background-color: rgba(245,245,245,0.4)">
+
+<h1>GFX - PORTFOLIO</h1>
+
+<h3>DESIGN SAMPLE</h3>
+<br/>
+
+<div id="myBtnContainer">
+  <button class="btn active shadoweffect2" onclick="filterSelection('Showall')"> Show all</button>
+  <button class="btn shadoweffect2" onclick="filterSelection('WebDesign')"> Web Design</button>
+  <button class="btn shadoweffect2" onclick="filterSelection('Logo')"> Logo</button>
+  <button class="btn shadoweffect2" onclick="filterSelection('GraphicDesign')"> Graphic design</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column GraphicDesign Showall">
+    <div class="content shadoweffect">
+      <a href="final_personal_Designation.jpg" data-fluidbox>
+					<img src="final_personal_Designation.jpg" alt="Random Edit"></a>  
+       <br/><br/>
+
+
+
+<button id="myBtn" class="btn btn-primary" style="background:#666">Random Edit</button>
+<div class="tooltip">
+  <span class="tooltiptext">Kush</span>
+</div>
+ 
+      
+    </div>
+  </div>
+  <div class="column WebDesign Showall">
+    <div class="content shadoweffect">
+    <a href="save polar bear.jpg" data-fluidbox>
+					<img src="save polar bear.jpg" alt="Monotonic Bear"></a>
+         <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Monotonic Bear</button>
+    </div>
+  </div>
+  <div class="column GraphicDesign Showall">
+    <div class="content shadoweffect">
+    <a href="question_on_life.jpg" data-fluidbox>
+					<img src="question_on_life.jpg" alt="Question ?"></a>
+	    
+         <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Question ?</button>
+    </div>
+  </div>
+  
+  <div class="column Logo Showall">
+    <div class="content shadoweffect">
+      <a href="Logo-ECO_SOUNDS_2.jpg" data-fluidbox>
+					<img src="Logo-ECO_SOUNDS_2.jpg" alt="Eco Sounds"></a>
+         <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Eco Sounds</button>
+    </div>
+  </div>
+  <div class="column Logo Showall">
+    <div class="content shadoweffect">
+    <a href="OUT DOOR_2.jpg" data-fluidbox>
+					<img src="OUT DOOR_2.jpg" alt="Outdoor"></a>
+         <br/><br/>
+     <button id="myBtn" class="btn btn-primary" style="background:#666">Outdoor </button>
+    </div>
+  </div>
+    
+    
+    <div class="column WebDesign Showall GraphicDesign">
+    <div class="content shadoweffect">
+   <a href="forest.jpg.jpg" data-fluidbox>
+					<img src="forest.jpg" alt="Forest Theme"></a>
+        <br/> <br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Forest Theme</button>
+    </div>
+  </div>
+    
+    
+  <div class="column GraphicDesign Showall">
+    <div class="content shadoweffect">
+    <a href="AUVThankU_@Kush_final_99025.jpg" data-fluidbox>
+					<img src="AUVThankU_@Kush_final_99025.jpg" alt="Acknowledgement"></a>
+         <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Acknowledgement</button>
+    </div>
+  </div>
+
+  <div class="column GraphicDesign Showall">
+    <div class="content shadoweffect">
+      <a href="glow effect 2.jpg" data-fluidbox>
+					<img src="glow effect 2.jpg" alt="Glow Effect"></a>
+         <br/><br/>
+     <button id="myBtn" class="btn btn-primary" style="background:#666">Glow Effect</button>
+    </div>
+  </div>
+  <div class="column WebDesign Showall GraphicDesign">
+    <div class="content shadoweffect">
+    <a href="LIFESTYLE_2.jpg" data-fluidbox>
+					<img src="LIFESTYLE_2.jpg" alt="Upcoming store"></a>
+        <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Upcoming store</button>
+    </div>
+  </div>
+  
+    
+    
+   <div class="column GraphicDesign Showall">
+    <div class="content shadoweffect">
+    <a href="Meditation2.jpg" data-fluidbox>
+		<img src="Meditation2.jpg" alt="Meditation"></a>
+        <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Meditation</button>
+    </div>
+  </div>
+  
+     
+     <div class="column GraphicDesign Showall">
+    <div class="content shadoweffect">
+    <a href="Kush@spongy.png" data-fluidbox>
+					<img src="Kush@spongy.png" alt="Spongy Sketch"></a>
+        <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Spongy Sketch</button>
+    </div>
+  </div>
+  
+ 
+    
+     <div class="column WebDesign Showall">
+    <div class="content shadoweffect">
+    <a href="my style.jpg" data-fluidbox>
+					<img src="my style.jpg" alt="Tear Design"></a>
+        <br/><br/>
+      <button id="myBtn" class="btn btn-primary" style="background:#666">Tear Design</button>
+    </div>
+  </div>
+    
+    
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+	<br/>
+	<hr/>
+	
+
+	<footer>
+		<p class="copyright" style="color:white">
+			<strong>
+ 				Made by <a href="#" target="_blank">Kush Shah</a>
+            </strong>
+		</p>
+
+
+	</footer>
+	
+	
+	<!-- SCIPTS -->
+	
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="bootstrap.js"></script>
+	<script src="jquery.waypoints.min.js"></script>
+	<script src="progressbar.min.js"></script>
+	<script src="jquery.fluidbox.min.js"></script>
+	<script src="scripts.js"></script>
+    
+    
+    
+     
+     <!--Below code is for top link button-->
+     
+     
+     
+     <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn1").style.display = "block";
+    } else {
+        document.getElementById("myBtn1").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+     
+     <!--Below code snippet is for gallery-->
+     <script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+<!--Above code snippet is for gallery-->
+     
+     
+<!--Script for side nav bar-->
+
+<script>
+    
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<!--Script for side nav bar-->
+     
+     
+</body>
+</html>
